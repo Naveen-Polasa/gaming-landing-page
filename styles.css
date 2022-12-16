@@ -257,9 +257,6 @@ nav > ul {
   justify-content: space-between;
   align-items: center;
 }
-.recommended-top > h1 {
-  padding-right: ;
-}
 .rec-btn {
   padding: 1.4rem 1rem;
   background: var(--color-primary);
