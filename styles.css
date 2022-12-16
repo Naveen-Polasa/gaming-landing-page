@@ -19,6 +19,7 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: #000000;
+  
   /* max-width: 1400px; */
 }
 
@@ -31,7 +32,7 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 3rem 0 1.38rem;
+  margin: 1.5rem 0 1.1rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   line-height: 1.3;
@@ -40,6 +41,7 @@ h5 {
 h1 {
   margin-top: 0;
   font-size: 3.052rem;
+  text-transform: capitalize;
 }
 
 h2 {
@@ -80,7 +82,7 @@ li {
 /* hero */
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, .7),rgba(0,0,0,0.7)), url("./Assets/Photos/futuristic-bg.png") center/cover fixed no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .7),rgba(0,0,0,0.7)), url("./Assets/Photos/futuristic-bg.png") center/cover ;
   color: var(--color-white);
   padding: 0 100px;
   height: 95vh;
@@ -149,4 +151,69 @@ width: 20rem;
 }
 .right-arrow{
     align-self: end;
+}
+
+/* games */
+.games{
+    padding: 0 100px;
+}
+.games-top{
+    padding: 6rem 13rem 2rem 13rem;
+    text-align: center;
+    
+}
+
+.games-bottom{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.game{
+    width: 25vw;
+    height: 50vh;
+    /* padding:  .3rem; */
+    color: var(--color-white);
+}
+.game-bottom{
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    margin-top: 260px;
+    padding: .3rem .3rem 1.4rem .3rem;
+    background: linear-gradient(rgba(43, 43, 43, 0.8),rgba(42, 42, 42, 0.8));
+}
+.btn-game{
+background: var(--color-primary);
+color: var(--color-white);
+border: none;
+padding: 1rem 2rem;
+margin-left: .6rem;
+}
+.btn-game3{
+margin-left: 2rem;
+}
+
+.stars{
+    display: flex;
+    gap: .5rem;
+    justify-content: spac;
+}
+.game1{
+    background: url('./Assets/Photos/image\ 2.png') center/cover;   
+    background-position: 400px;
+}
+.game2{
+    background: url('./Assets/Photos/image\ 4.png') center/cover;   
+}
+.game3{
+    background: url('./Assets/Photos/image\ 3.png') center/cover;   
+}
+.game4{
+    background: url('./Assets/Photos/Rectangle\ 56.png') center/cover;   
+}
+
+.play-btn{
+    margin-bottom: 4rem;
+    margin-top: 6rem;
 }
